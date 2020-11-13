@@ -14,7 +14,7 @@ export default function Ex6UseChain() {
     width: '100%',
     height: '100%',
     from: { opacity: 0, width: '0%', height: '0%' },
-    config: { duration: 400 },
+    config: { duration: 4000 },
     ref: springRef,
   });
 
