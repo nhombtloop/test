@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import UserProfile from './components/form-validation/UserProfile';
+import Demo from './components/styled-components/DemoJSS/Demo';
+import TodoList from './components/BaiTapStyleComponent/ToDoList/TodoList';
+import DemoUseCallback from './components/hook/react-hook/DemoUseCallback';
+import DemoReduxHooks from './components/hook/react-hook/DemoReduxHooks';
+import DemoReactSpring from './components/hook/animation/DemoReactSpring';
+import DemoUseSprings from './components/hook/animation/DemoUseSprings';
+import DemoUseTrail from './components/hook/animation/DemoUseTrail';
+import DemoUseTransition from './components/hook/animation/DemoUseTransition';
+import DemoUseChain from './components/hook/animation/DemoUseChain';
+import BaiTapGameBauCua from './components/BaiTapTongHop/BaiTapGameBauCua/BaiTapGameBauCua';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BaiTapGameBauCua />
     </div>
   );
 }
